@@ -3,7 +3,7 @@ name: DNS Lookup
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 1' # Ежедневный автозапуск задачи
+    - cron: '0 0 * * 1'
 
 jobs:
 
