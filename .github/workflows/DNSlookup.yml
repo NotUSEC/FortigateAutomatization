@@ -1,4 +1,4 @@
-name: DNS Lookup
+name: Get Domain addr
 
 on:
   workflow_dispatch:
