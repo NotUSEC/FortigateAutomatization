@@ -1,10 +1,10 @@
 name: Update IPs and Publish
 
 on:
-  push:
-    branches:
-      - main
-
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 1'
+    
 jobs:
   update-ips:
     runs-on: ubuntu-latest
